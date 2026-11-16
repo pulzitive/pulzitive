@@ -44,14 +44,12 @@ jobs:
             npm install --legacy-peer-deps --no-audit --no-fund
           fi
 
-      - name: Configure & auto-enable GitHub Pages
-        id: pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
       - name: Run TypeScript check
         run: bun run lint
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Build Vite production bundle for GitHub Pages
         env:
