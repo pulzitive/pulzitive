@@ -101,12 +101,11 @@ export function HomePage({
           </div>
 
           <div className="lg:col-span-6">
-            <div className="h-full overflow-hidden rounded-2xl border border-[#E5E3DD] bg-[#ECEAE4]">
+            <div className="flex h-full min-h-[300px] items-end justify-center overflow-hidden rounded-2xl border border-[#E5E3DD] bg-white px-4 pt-6 sm:px-6">
               <img
                 src={STUDIO_MEDIA.heroStudio}
-                alt="Pulzitive creative branding and commercial production studio"
-                referrerPolicy="no-referrer"
-                className="h-full min-h-[320px] w-full object-cover lg:h-full"
+                alt="Pulzitive creative branding, photography, and digital strategy team collaborating"
+                className="h-auto max-h-[460px] w-full object-contain object-bottom"
               />
             </div>
           </div>

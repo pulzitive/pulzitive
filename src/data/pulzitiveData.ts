@@ -1,4 +1,3 @@
-import heroStudioImg from '@/src/assets/images/nigerian_hero_studio_1794581969748.jpg';
 import productionSetImg from '@/src/assets/images/nigerian_production_set_1794581970426.jpg';
 import academyAtelierImg from '@/src/assets/images/nigerian_academy_atelier_1794581971249.jpg';
 
@@ -83,7 +82,7 @@ export interface TestimonialItem {
 }
 
 export const STUDIO_MEDIA = {
-  heroStudio: heroStudioImg,
+  heroStudio: './assets/aistudio/Nigerian_Creative_Team_Collaboration_0b0b9b5d.png',
   productionSet: productionSetImg,
   academyAtelier: academyAtelierImg,
   founderPortrait: './drive-assets/founder_portrait.png',
